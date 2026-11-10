@@ -1,0 +1,16 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install optional tools
+        run: sudo apt-get update && sudo apt-get install -y nasm qemu-system-x86
+      - name: Check prebuilt binaries match the assembly sources
+        run: python tools/build_prebuilt.py --check
+      - name: Run tests
+        run: python -m unittest discover tests -v

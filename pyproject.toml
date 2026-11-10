@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hyper-os-creator"
+version = "1.0.0"
+description = "Design, build, remix and share your own operating systems - bootloaders, kernels, ISOs, UI and code editors."
+readme = "README.md"
+license = { text = "GPL-3.0-or-later" }
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+hyperos = "hyperos.cli:main"
+
+[tool.setuptools]
+packages = ["hyperos"]
+
+[tool.setuptools.package-data]
+hyperos = ["web/*", "asm/*.asm", "templates/*/*", "templates/*/*/*"]

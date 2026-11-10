@@ -1,0 +1,202 @@
+{
+  "name": "Hyper OS Creator community registry",
+  "resources": [
+    {
+      "author": "Hyper OS Creator team",
+      "version": "1.0.0",
+      "name": "Classic Desktop",
+      "type": "ui-layout",
+      "tags": [
+        "desktop",
+        "icons",
+        "taskbar"
+      ],
+      "description": "Desktop icons, a welcome window and a taskbar with a Start button.",
+      "id": "classic-desktop",
+      "created": "2026-11-10",
+      "files": [
+        "ui.json"
+      ],
+      "package": "packages/classic-desktop-1.0.0.hyperpkg",
+      "sha256": "3e46369e1f7368e71e057627d3b826a32b6dad3771208b6e1416ed016cb1f77d",
+      "size": 829
+    },
+    {
+      "author": "Hyper OS Creator team",
+      "version": "1.0.0",
+      "name": "Fun Commands",
+      "type": "command-pack",
+      "tags": [
+        "fun",
+        "jokes",
+        "ascii"
+      ],
+      "description": "joke, fortune, cowsay, coffee, matrix and hack.",
+      "id": "fun-commands",
+      "created": "2026-11-10",
+      "files": [
+        "commands.json"
+      ],
+      "package": "packages/fun-commands-1.0.0.hyperpkg",
+      "sha256": "223788ed9f29ecef54bfb10c528ce063e0e5ee3033f5489b4cd95fc63694d9bb",
+      "size": 810
+    },
+    {
+      "author": "Hyper OS Creator team",
+      "version": "1.0.0",
+      "name": "Hacker Green",
+      "type": "theme",
+      "tags": [
+        "green",
+        "hacker",
+        "dark"
+      ],
+      "description": "Bright green on black. Very mysterious.",
+      "id": "hacker-green",
+      "created": "2026-11-10",
+      "files": [
+        "theme.json"
+      ],
+      "package": "packages/hacker-green-1.0.0.hyperpkg",
+      "sha256": "21f6628bf603d60a188ae1a6cf522ecea774f2029ba2f9a11787260ef6d84e4e",
+      "size": 487
+    },
+    {
+      "author": "Hyper OS Creator team",
+      "version": "1.0.0",
+      "name": "Ocean Breeze",
+      "type": "theme",
+      "tags": [
+        "blue",
+        "calm"
+      ],
+      "description": "Calm blues and cyans.",
+      "id": "ocean-breeze",
+      "created": "2026-11-10",
+      "files": [
+        "theme.json"
+      ],
+      "package": "packages/ocean-breeze-1.0.0.hyperpkg",
+      "sha256": "9d6c5e5b34aefdf98b9fb2b8640d9c7680b009a3a52f29e0cc4e1a666e75579a",
+      "size": 470
+    },
+    {
+      "author": "Hyper OS Creator team",
+      "version": "1.0.0",
+      "name": "OS Facts",
+      "type": "command-pack",
+      "tags": [
+        "learning",
+        "facts"
+      ],
+      "description": "Commands that teach fun facts about operating systems.",
+      "id": "os-facts",
+      "created": "2026-11-10",
+      "files": [
+        "commands.json"
+      ],
+      "package": "packages/os-facts-1.0.0.hyperpkg",
+      "sha256": "2e65d0c20ac9c074fa9ba11fcc88d839788972d7e362446658518bc3eaf9a384",
+      "size": 782
+    },
+    {
+      "author": "Hyper OS Creator team",
+      "version": "1.0.0",
+      "name": "Pocket OS",
+      "type": "system-template",
+      "tags": [
+        "starter",
+        "desktop"
+      ],
+      "description": "A complete starter system: classic desktop, fun commands and a cheerful boot banner.",
+      "id": "pocket-os",
+      "created": "2026-11-10",
+      "files": [
+        "system.json"
+      ],
+      "package": "packages/pocket-os-1.0.0.hyperpkg",
+      "sha256": "d5e41961a54d40238e2921fbd5cdb3ac81facb4141f6451c1705571492744ec1",
+      "size": 1458
+    },
+    {
+      "author": "Hyper OS Creator team",
+      "version": "1.0.0",
+      "name": "Retro Amber",
+      "type": "theme",
+      "tags": [
+        "retro",
+        "amber",
+        "dark"
+      ],
+      "description": "Warm amber-on-black like an 80s terminal.",
+      "id": "retro-amber",
+      "created": "2026-11-10",
+      "files": [
+        "theme.json"
+      ],
+      "package": "packages/retro-amber-1.0.0.hyperpkg",
+      "sha256": "db9381e0a36a9ac0aae7adde6c9a2aa12c2e432200aaa840f3100bcaf16485ed",
+      "size": 493
+    },
+    {
+      "author": "Hyper OS Creator team",
+      "version": "1.0.0",
+      "name": "Sunset",
+      "type": "theme",
+      "tags": [
+        "warm",
+        "colourful"
+      ],
+      "description": "Magenta desktop with yellow windows.",
+      "id": "sunset",
+      "created": "2026-11-10",
+      "files": [
+        "theme.json"
+      ],
+      "package": "packages/sunset-1.0.0.hyperpkg",
+      "sha256": "0480b229bee73ec0d19dd7c64b6736536cd4f61e0267aa380c15b2ddecd5bfd2",
+      "size": 483
+    },
+    {
+      "author": "Hyper OS Creator team",
+      "version": "1.0.0",
+      "name": "Terminal Boot",
+      "type": "ui-layout",
+      "tags": [
+        "terminal",
+        "green",
+        "boot"
+      ],
+      "description": "A retro boot log screen.",
+      "id": "terminal-boot",
+      "created": "2026-11-10",
+      "files": [
+        "ui.json"
+      ],
+      "package": "packages/terminal-boot-1.0.0.hyperpkg",
+      "sha256": "5ca23c431cc6956429c7d83f9a016fcb78bd090099dc891d1504ccfc2441e93b",
+      "size": 664
+    },
+    {
+      "author": "Hyper OS Creator team",
+      "version": "1.0.0",
+      "name": "VGA print routine",
+      "type": "snippet",
+      "tags": [
+        "asm",
+        "vga",
+        "real-mode"
+      ],
+      "description": "Print coloured text anywhere on screen by writing to video memory.",
+      "id": "vga-print-routine",
+      "created": "2026-11-10",
+      "files": [
+        "vga_print.asm"
+      ],
+      "package": "packages/vga-print-routine-1.0.0.hyperpkg",
+      "sha256": "8a4c0019c5dd72d8a8d3a10aa02129f6186d41d09b6ca291a68cbc36c60e4a38",
+      "size": 723
+    }
+  ],
+  "updated": "2026-11-10"
+}

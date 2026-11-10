@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hyper OS Creator</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2306b6d4'/%3E%3Cpath d='M9 8v16M23 8v16M9 16h14' stroke='white' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div id="app">
+  <aside id="sidebar">
+    <a class="brand" href="#/home"><span class="logo">H</span><span>Hyper OS<small>Creator</small></span></a>
+    <nav id="nav">
+      <a href="#/home" data-page="home"><i>⌂</i>Home</a>
+      <a href="#/systems" data-page="systems"><i>▣</i>My Systems</a>
+      <a href="#/ui" data-page="ui"><i>◧</i>UI Editor</a>
+      <a href="#/code" data-page="code"><i>{}</i>Code Editor</a>
+      <div class="nav-sep">Build blocks</div>
+      <a href="#/bootloaders" data-page="bootloaders"><i>⏻</i>Bootloaders</a>
+      <a href="#/kernels" data-page="kernels"><i>◎</i>Kernels</a>
+      <a href="#/isos" data-page="isos"><i>◉</i>ISOs</a>
+      <div class="nav-sep">Community</div>
+      <a href="#/resources" data-page="resources"><i>⬡</i>Resources</a>
+      <a href="#/suggestions" data-page="suggestions"><i>✦</i>Suggestions</a>
+      <div class="nav-sep">More</div>
+      <a href="#/console" data-page="console"><i>&gt;_</i>Console</a>
+      <a href="#/tips" data-page="tips"><i>💡</i>Tips</a>
+      <a href="#/settings" data-page="settings"><i>⚙</i>Settings</a>
+    </nav>
+    <div id="sidebar-foot"></div>
+  </aside>
+  <main id="main">
+    <div id="tipbar" hidden><span class="tip-icon">💡</span><span id="tiptext"></span>
+      <button class="link" id="tipnext" title="Another tip">Next tip</button>
+      <button class="link" id="tipclose" title="Hide tips">✕</button></div>
+    <div id="page"></div>
+  </main>
+</div>
+<div id="jobs"></div>
+<div id="toasts"></div>
+<div id="modal" hidden><div class="modal-card"><div class="modal-head"><h3 id="modal-title"></h3>
+  <button class="icon" id="modal-close" aria-label="Close">✕</button></div><div id="modal-body"></div></div></div>
+<script src="/static/screen.js"></script>
+<script src="/static/app.js"></script>
+<script src="/static/pages.js"></script>
+<script src="/static/uieditor.js"></script>
+<script src="/static/codeeditor.js"></script>
+<script>App.start();</script>
+</body>
+</html>
